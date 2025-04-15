@@ -15,10 +15,11 @@
         <nav>
             <a href="#" class="active"> Home</a>
             <a href="#about" >Sobre mim</a>
-            <a href="#" >Projetos</a>
-            <a href="#" >Contato</a>
+            <a href="#projeto" >Projetos</a> <!-- Link atualizado para a nova seção -->
+            <a href="#contato" >Contato</a>
         </nav>
     </header>
+
     <section class="home">
         <div class="home-img">
             <img src=src/main.jpg alt="">
@@ -48,8 +49,6 @@
                     Olá! Me chamo Ana Júlia, tenho 18 anos e sou estudante de Desenvolvimento de Software Multiplataforma na FATEC de São José dos Campos. Atualmente, atuo como jovem aprendiz na Nestlé, onde venho desenvolvendo minhas habilidades profissionais enquanto continuo me aperfeiçoando na área de tecnologia.
 
                     Estou sempre em busca de novos conhecimentos e faço cursos complementares para fortalecer meu currículo. Apesar de estar imersa no universo da tecnologia, é no design que encontro minha verdadeira paixão. Gosto de criar, experimentar e transformar ideias em algo visualmente impactante e funcional.
-
-
                 </p>
                 <div class="button">
                     <a href=src/curriculo.pdf download>
@@ -60,7 +59,81 @@
           </div>
         </div>
     </section>
-      <footer>
+
+    <!-- Seção de Projetos com Título, Texto à Esquerda e Imagem à Direita -->
+    <section class="projeto" id="projeto">
+        <div class="content">
+            <div class="title"><span>Meus Projetos</span></div>
+            <div class="projeto-details">
+
+                <div class="left">
+                  <div class="topic"><span>TCC</span> Taiadinho:</div>
+                    <p>Meu primeiro projeto foi o "Taiadinho: Além dos Corredores", meu trabalho de conclusão de curso da Etec. 
+                      Consistia num jogo inteiramente programado em C# e com design desenvolvido pelo Aseprite. O jogo tinha como
+                      objetivo apresentar a novos alunos da Etec o ambiente escolar, professores, dinâmica dos cursos e regras de 
+                      funcionamento da escola. Fui responsável por desenvolver todo o design do jogo, incluindo mapas, personagens e menus.
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="src/Game Over.jpg" alt="Imagem do Projeto 1">
+                </div>
+            </div>
+
+            <div class="projeto-details">
+                <div class="left">
+                  <div class="topic"><span>API</span> Chronos:</div>
+                    <p>Como segundo projeto, estou participando do desenvolvimento de um site de Estastísticas de Comércio Exterior 
+                      do Estado de São Paulo. O site tem como objetivo atender as necessidades de um cliente referentes ao tema citado 
+                      anteriormente. O site consiste no Aprendizado por Projeto Integrado do meu primeiro semestre em DSM na Fatec. 
+                      Nesse trabalho, desenvolvi todo o design do site, além de participar do desenvolvimento da programação 
+                      front-end do projeto. 
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="src/imagem.png" alt="Imagem do Projeto 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="projetos">
+      <div class="title">
+          <span>Galeria de Projetos</span>
+      </div>
+      <div class="galeria-description">
+          <p>Confira abaixo mais alguns projetos de design que desenvolvi. 
+          </p>
+      </div>
+  
+      <div class="galeria-grid">
+          <div class="grid-item">
+              <img src="src/bolhas.png" alt="Projeto 1">
+              <p class="imagem-nome">Site: Vendas de Bolhas</p>
+          </div>
+          <div class="grid-item">
+              <img src="src/curso.png" alt="Projeto 2">
+              <p class="imagem-nome">Site: Curso de Tecnologia</p>
+          </div>
+          <div class="grid-item">
+              <img src="src/portal.png" alt="Projeto 3">
+              <p class="imagem-nome">Site: Portal de Vendas</p>
+          </div>
+          <div class="grid-item">
+              <img src="src/series.png" alt="Projeto 4">
+              <p class="imagem-nome">Site: Catálogo de Séries</p>
+          </div>
+          <div class="grid-item">
+              <img src="src/turismo.png" alt="Projeto 5">
+              <p class="imagem-nome">Site: Turismo em Belo Horizonte</p>
+          </div>
+          <div class="grid-item">
+              <img src="src/viagem.png" alt="Projeto 6">
+              <p class="imagem-nome">Site: Viagem a Porto Seguro</p>
+          </div>
+      </div>
+  </section>
+
+      <footer id="contato">
         <div class="footer-content">
           <h3>Ana Júlia Rubim</h3>
           <p>Tem alguma ideia legal, quer trocar uma ideia ou só bater um papo sobre design?
