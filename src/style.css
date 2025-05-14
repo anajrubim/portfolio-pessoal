@@ -365,6 +365,11 @@ section .button button:hover {
     font-size: 1.6rem;
 }
 
+.projeto .projeto-details .left p a {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
 .projeto .projeto-details .right img {
     width: 100%;
     border-radius: 10px;
