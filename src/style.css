@@ -441,6 +441,10 @@ section .button button:hover {
     transition: transform 0.3s ease;
 }
 
+.certificados-grid {
+    position: relative;
+    text-align: center; 
+}
 .galeria {
     background-color: black;
     padding: 60px 9%;
