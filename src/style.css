@@ -426,7 +426,7 @@ section .button button:hover {
 }
 
 .certificados-description p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #ddd;
     max-width: 800px;
     margin: 0 auto;
