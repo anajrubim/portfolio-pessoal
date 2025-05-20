@@ -459,7 +459,7 @@ section .button button:hover {
 
 .certificados-grid .grid-item img {
     width: 100%;
-    height: 250px; 
+    height: 350px; 
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 0 15px rgba(0, 204, 204, 0.3);
