@@ -115,11 +115,10 @@ nav a.active{
         top: 70px;
         right: 0;
         width: 40%;
-        border-left: 3px solid #00cccc;
-        border-bottom: 3px solid #00cccc;
-        border-bottom-left-radius: 2rem;
+        border: 3px solid #00cccc;
+        border-radius: 2rem;
         padding: 2rem;
-        background-color: #161616;
+        background-color: #000;
         z-index: 100;
     }
     #menu-toggle-checkbox:checked ~ nav {
